@@ -1,4 +1,5 @@
-FROM datadog/agent:7
+# FROM datadog/agent:7
+FROM nginx:stable-bookworm-perl
 
 # disable autoconfigured checks; DD container checks
 # do not work as-is on Render since there's no access
